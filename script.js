@@ -55,7 +55,7 @@ const mobileothercontent = [
   {
     title: 'Data Dashboard Healthcare',
     text: ' A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard',
-    technology: ['html', 'bootstrap', 'Ruby'],
+    technology: ['html', 'bootstrap', Ruby'],
     image: 'image/Website.png',
     sn: 3,
     seelive: 'https://newtayo.github.io/Portfolio-Setup/',
@@ -136,7 +136,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
   Popup.append(backdrop);
 
   const removeBtn = document.getElementById('remove');
-  removeBtn.addEventListener('click', () => {
+  removeBtnaddEventListener('click', () => {
     Popup.removeChild(backdrop);
   });
 });
